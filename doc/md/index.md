@@ -1,19 +1,27 @@
 # [Shaarli](https://github.com/shaarli/Shaarli/) documentation
 
-Here you can find some info on how to use, configure, tweak and solve problems with your Shaarli.
+The personal, minimalist, super-fast, database free, bookmarking service.
 
-For general info, read the [README](https://github.com/shaarli/Shaarli/blob/master/README.md).
+Do you want to share the links you discover?
+Shaarli is a minimalist link sharing service that you can install on your own server.
+It is designed to be personal (single-user), fast and handy.
+
+<!--- TODO screenshots --->
+
+Here you can find some info on how to use, configure, tweak and solve problems with your Shaarli.
+For general information, read the [README](https://github.com/shaarli/Shaarli/blob/master/README.md).
 
 If you have any questions or ideas, please join the [chat](https://gitter.im/shaarli/Shaarli) (also reachable via [IRC](https://irc.gitter.im/)), post them in our [general discussion](https://github.com/shaarli/Shaarli/issues/308) or read the current [issues](https://github.com/shaarli/Shaarli/issues).
+
 If you've found a bug, please create a [new issue](https://github.com/shaarli/Shaarli/issues/new).
 
 If you would like a feature added to Shaarli, check the issues labeled [`feature`](https://github.com/shaarli/Shaarli/labels/feature), [`enhancement`](https://github.com/shaarli/Shaarli/labels/enhancement), and [`plugin`](https://github.com/shaarli/Shaarli/labels/plugin).
 
-_Note: This documentation is available online at https://shaarli.readthedocs.io/, and locally in the `doc/html/` directory of your Shaarli installation._
+* [GitHub project page](https://github.com/shaarli/Shaarli)
+* [Online documentation](https://shaarli.readthedocs.io/) (this page)
+* [Latest Shaarli releases](https://github.com/shaarli/Shaarli/releases)
+* [Changelog](https://github.com/shaarli/Shaarli/blob/master/CHANGELOG.md)
 
-[![Join the chat at https://gitter.im/shaarli/Shaarli](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/shaarli/Shaarli)
-[![Bountysource](https://www.bountysource.com/badge/team?team_id=19583&style=bounties_received)](https://www.bountysource.com/teams/shaarli/issues)
-[![Docker repository](https://img.shields.io/docker/pulls/shaarli/shaarli.svg)](https://hub.docker.com/r/shaarli/shaarli/)
 
 ### Demo
 
@@ -21,6 +29,8 @@ You can use this [public demo instance of Shaarli](https://demo.shaarli.org).
 It runs the latest development version of Shaarli and is updated/reset daily.
 
 Login: `demo`; Password: `demo`
+
+<!---- TODO review everything below this point --->
 
 ## Features
 
@@ -87,6 +97,8 @@ dailymotion, flickr, imageshack, imgur, vimeo, xkcd, youtube...
 - [PubSubHubbub](https://code.google.com/p/pubsubhubbub/) protocol support
 - URL cleanup: automatic removal of `?utm_source=...`, `fb=...`
 - discreet pop-up notification when a new release is available
+
+<!---- TODO Limitations --->
 
 ### REST API
 
